@@ -1,11 +1,11 @@
-function runListHTML() {
-    const code = document.getElementById("list-editor").value;
-    const output = document.getElementById("list-output");
+function runTableHTML() {
+    const code = document.getElementById("table-editor").value;
+    const output = document.getElementById("table-output");
     output.innerHTML = code;
 }
 
-function runLinkHTML() {
-    const code = document.getElementById("link-editor").value;
-    const output = document.getElementById("link-output");
+function runImageHTML() {
+    const code = document.getElementById("image-editor").value;
+    const output = document.getElementById("image-output");
     output.innerHTML = code;
 }
